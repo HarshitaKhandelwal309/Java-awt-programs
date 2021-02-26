@@ -1,2 +1,2 @@
 # Java-awt-programs
-program1 <Program for creating a frame> 
+program2 <Program for creating a label> 
