@@ -1,2 +1,2 @@
-# Java-awt-programs
+# Java-awt-swing-programs
 
