@@ -21,18 +21,25 @@ class label  extends JFrame{
     label()
             
     {
-        JLabel labels= new JLabel("Bro do you even code?");
+        JLabel labels= new JLabel("Hey This Is our Company Logo");
        
         
         this.add(labels);
-          ImageIcon image = new ImageIcon("C:/Users/dell/Documents/NetBeansProjects/javalabel/src/javalabel/downoad.png");
+          ImageIcon image = new ImageIcon("images/download.png");
+   
         Border border = BorderFactory.createLineBorder(Color.GREEN);
-          labels.setIcon(image);
+         
         labels.setForeground(Color.red);
-        labels.setFont(new Font("MV Boli",Font.BOLD,30));
+        labels.setFont(new Font("MV Boli",Font.BOLD,20));
         labels.setHorizontalTextPosition(JLabel.CENTER);
            labels.setBorder(border);
-       
+            labels.setIcon(image);
+            labels.setHorizontalTextPosition(JLabel.CENTER);
+             labels.setVerticalTextPosition(JLabel.TOP);
+            labels.setBackground(Color.BLACK); // it will not change background color to change it
+            
+            labels.setOpaque(true); // use opaque method
+         labels.setIconTextGap(25);
        
         
          this.setVisible(true); // it will display frame
@@ -41,7 +48,7 @@ class label  extends JFrame{
           //this.getContentPane().setBackground( Color.CYAN);
           this.getContentPane().setBackground( new Color(0x123456)); // set color of a frame  
           
-          this.setResizable(false);// it will stop frame to resize 
+         // this.setResizable(false);// it will stop frame to resize 
           this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //  exit out of application 
           
     }
