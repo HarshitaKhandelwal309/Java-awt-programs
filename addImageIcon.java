@@ -19,18 +19,18 @@ addimage()
           this.setSize(400 ,400); // set size  of frame 
           this.setTitle("FirstFrame"); // sset title of frame
           //this.getContentPane().setBackground( Color.CYAN);
-          this.getContentPane().setBackground(Color.MAGENTA); // set color of a frame  
+          this.getContentPane().setBackground(Color.black); // set color of a frame  
           
           this.setResizable(false);// it will stop frame to resize 
           this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //  exit out of application 
           
-          ImageIcon image = new ImageIcon("download.png");
+          ImageIcon image = new ImageIcon("image/download.png");
           this.setIconImage(image.getImage());
      
     
 }
 }
-public class addImageIcon {
+public class addImageIcon {  
     public static void main(String[] args) {
         addimage im = new addimage();
     }
